@@ -1,0 +1,84 @@
+*{margin: 0;
+ padding: 0;}
+
+.contaner{height: 100vh;
+          width: 100%;
+          background-image:url(bg-Img.jpg);
+          background-size: cover;
+          background-attachment: fixed;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: none; 
+          box-shadow: 1px 1x 1px 1px black;
+        }
+
+  .clock span{
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    }
+
+    .clock span::after{
+        position: relative;
+        top: 30px;
+        left: -30px;
+        font-size: large;
+        text-shadow: 1px 1px 1px 1px black;
+    }
+    #mid{
+      margin-right:30px ;
+      color: white; }
+   
+.main-contaner{height: 30vh;
+               width: 50vw;
+               padding: 20px;
+               background-color: transparent;
+               display: flex;
+               flex-direction: column;
+               display: inline-flex;
+               align-items: center;
+               color: white;
+               justify-content: center;
+              }
+.addTimeInput{
+  display: flex;
+  margin: 50px 50px;
+}
+input{padding: 5px;
+      width: 100px;
+      margin: 5px;
+      border-radius: 1rem;
+      background-color: transparent;
+      color: white;
+      display: flex;
+      justify-content: center;
+      border: 1px solid white;
+      margin-left: 20px;
+  }
+
+#hours::after{content:" Hour";
+            color: black;}
+
+#min::after{content: "Min";
+           color: black;}
+
+#sec::after{content: "Sec";
+            color: black;}
+  
+  #btnAddTime{
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: darkmagenta;
+    margin: 15px;
+    margin-left: 20px;
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+
+.resetBtn{
+         background-color: aqua;
+         padding: 10px;
+         border-radius:1rem;
+ }

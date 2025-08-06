@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="contaner">
+         <div class="main-contaner">
+            <div class="clock">
+                <span id="hours">00</span> 
+                <span  id="mid">:</span>
+                <span id="min">00</span>
+                <span id="mid">:</span>
+                <span id="sec">00</span>
+                <span id="ampm">AM</span>
+               </div>
+               
+               <div class="addTimeInput">
+                    <input type="number" id="hourInp" placeholder="AddHour" min="1" max="11">
+                    <input type="number" id="minInp"  placeholder="AddMin" min="1" max="60">
+                    <input type="number" id="secInp"  placeholder="AddSec" min="1" max="60">
+                  
+                    <div class="btn"><button id="btnAddTime">addTime</button></div>
+             </div>
+             <button class="resetBtn">resetTime</button>
+            </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
